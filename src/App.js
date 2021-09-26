@@ -9,6 +9,10 @@ const talksDB = {
     {
       name: "The happy secret to better work",
       speaker: "Shawn Achor"
+    },
+    {
+      name: "Mentalism, mind reading and the art of getting inside your head",
+      speaker: "Derren Brown"
     }
   ],
   WellBeing: [ 
@@ -18,6 +22,10 @@ const talksDB = {
     {
       name: "Sleep is your superpower", 
       speaker: "Matt Walker" 
+    },
+    {
+      name: "How to pratice emotional first aid",
+      speaker: "Guy Winch"
     }
   ],
   BodyLanguage: [ 
@@ -28,6 +36,10 @@ const talksDB = {
     { 
       name: "Your body language may shape who you are", 
       speaker: "Amy Cuddy" 
+    },
+    {
+      name: "How to stay calm under pressure",
+      speaker:"Noa Kageyama and Pen-Pen Chen"
     }
   ]
 };
