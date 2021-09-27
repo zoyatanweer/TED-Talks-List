@@ -4,42 +4,51 @@ import "./styles.css";
 const talksDB = { 
   Mind: [ 
     { name: "Inside the mind of a master procrastinator", 
-     speaker: "Tim Urban" 
+     speaker: "Tim Urban" ,
+     rating:"5/5"
     },
     {
       name: "The happy secret to better work",
-      speaker: "Shawn Achor"
+      speaker: "Shawn Achor" ,
+      rating:"4.8/5"
     },
     {
       name: "Mentalism, mind reading and the art of getting inside your head",
-      speaker: "Derren Brown"
+      speaker: "Derren Brown",
+      rating: "4.5/5"
     }
   ],
   WellBeing: [ 
     { name: "What makes a good life? Lessons from the longest study on happiness", 
-     speaker: "Robert Waldinger" 
+     speaker: "Robert Waldinger" ,
+     rating:"5/5"
     },
     {
       name: "Sleep is your superpower", 
-      speaker: "Matt Walker" 
+      speaker: "Matt Walker" ,
+      rating:"4.7/5"
     },
     {
       name: "How to pratice emotional first aid",
-      speaker: "Guy Winch"
+      speaker: "Guy Winch",
+      rating:"4.7/5"
     }
   ],
   BodyLanguage: [ 
     { 
       name: "How to make stress your friend",
-      speaker: "Kelly McGonigal"
+      speaker: "Kelly McGonigal" ,
+      rating:"5/5"
     },
     { 
       name: "Your body language may shape who you are", 
-      speaker: "Amy Cuddy" 
+      speaker: "Amy Cuddy" ,
+      rating:"5/5"
     },
     {
       name: "How to stay calm under pressure",
-      speaker:"Noa Kageyama and Pen-Pen Chen"
+      speaker:"Noa Kageyama and Pen-Pen Chen" , 
+      rating:"4.5/5"
     }
   ]
 };
@@ -96,6 +105,8 @@ export default function App() {
               {" "}
               <div style={{ fontSize: "larger" }}> {talk.name} </div> 
               <div style={{ fontSize: "smaller" }}> {talk.speaker} </div>
+              <div style={{ fontSize: "smaller" }}> {talk.rating} </div>
+
             </li>
           ))}
         </ul>
